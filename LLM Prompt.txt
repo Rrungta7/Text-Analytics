@@ -1,0 +1,59 @@
+Your task is to categorize each sentence written by a help-giver that aims to provide mental support to a recipient in the list (separated by "||") into one of these 12 categories:
+
+ADVICE: Suggestions, guidance, or recommendations to help the recipient cope with the challenge. ADVICE refers to specific, actionable, concrete suggestions or recommendations to solve the recipient’s problem. It focuses on practical steps and strategies. Messages in this category are usually signaled by phrases such as "You need more exercise", "You should communicate with your parents", "You can develop new hobbies" 
+
+EXTERNAL: Information about where to find help or expertise. For example, EXTERNAL includes messages that direct the help-seeker to professionals, mental counselors, therapists, psychologists, support groups, doctors, consultants, hospitals, and mental health platforms. 
+
+INFORMATION BROADCASTING: Providing the recipient relevant facts, knowledge, or analysis of a situation without giving direct advice. Messages in this category share factual information, knowledge, opinion, or insights about a topic or situation but do not directly tell the recipient what to do. Messages in this category are not emotional. In particular, Information Broadcasting includes: 
+Explanation of the benefits or implication of an advice. E.g., This can help you better understand yourself and enhance your interpersonal skills.
+Analysis/appraisal of the help-seeker’s situation E.g., Let's think about what aspects you believe need improvement.
+
+INTRODUCTION: Self-introduction of the help-giver E.g., I am Doctor Wang Yun at YiDianLing. 
+
+QUESTIONING: Asking the recipient a question to seek information. If a message does not explicitly ask a question or use a question mark, then it is unlikely to be a QUESTIONING.
+
+EMPATHY: Expressing understanding to the recipient and acknowledging shared experiences or feelings with the recipient. Expressing understanding to the recipient and acknowledging shared experiences or feelings (usually negative and unpleasant) with the recipient. Messages in this category often involve using phrases like "I understand how you feel," "I can imagine," "That must be hard.”, “I can feel …”, “I can sense …”
+
+ENCOURAGEMENT: Providing the recipient with hope, confidence, spiritual strength, or sending good wishes (I wish …, I hope these suggestions can be helpful, I believe you will …) to the recipient. Encouragement is the expression of support, confidence, and belief in the recipient’s abilities. It aims to uplift and motivate, rather than provide direct solutions. Encouragement also focuses on the future potential, rather than the past or present. Examples of ENCOURAGEMENT messages include "Keep it up!", "As long as you believe in your abilities, you will overcome the difficulty!", "You will definitely overcome these challenges!", "Don't worry too much, the situation will improve!"
+
+SELF-REFERRAL: Expressions of willingness to provide consultation service to the help-seeker, or to further communicate with the help-seeker. For example, "please free to contact me if you have further questions", "If you have further problems, feel free to reach out!".
+
+VALIDATION: Validating or reinforcing the recipient’s ideas or actions, or relieve the recipient from blaming themselves for others' fault. VALIDATION also expresses positive opinions, agreement, approval, or recognition of the recipient’s perspective, experience, actions, or decisions. Examples of VALIDATION include "You are a great person!", "It is not your fault", "I completely agree with you", "There is nothing wrong with doing XX".
+
+CARING: Showing concern, sympathy, or kindness about the recipient’s situation without showing empathy. Caring messages focus on acknowledging the recipient’s pain or difficulty and willingness to offer emotional support. Often uses phrases like "I'm here for you," "I care about you,", "I'm sorry you're going through this.", “I am glad to answer your questions.”, "Don't worry", "Let's explore some solutions together", "We can explore this question together!"
+
+THANK: Thank the recipient for some reasons, such as sharing the information or for their trust. Including the polite response to thanks, such as "You are welcome."
+
+GREETING: Greet the recipient using "Hello", "Hi", "Good morning", "It's a pleasure to meet you here", "Glad to meet you", etc.
+
+Instructions:
+
+Read each sentence carefully.
+Determine which category best fits the sentence's main purpose and meaning.
+Only return each sentence, followed by its corresponding category label in the results, separated by a colon.
+
+Clarifications: 
+
+EMPATHY: The content that the help-giver understands or echoes with should usually be the help-seeker's negative emotions, such as worry and concern, rather than the help-seeker's quality, attributes, or experience. "It seems ...", "It sounds like ..." are usually categorized into INFORMATION BROADCASTING as these sentences mainly describe a situation.
+
+ADVICE vs. ENCOURAGEMENT: ADVICE refers to specific, actionable suggestions or recommendations to solve the recipient’s problem or address a challenge. It focuses on practical steps and strategies. ENCOURAGEMENT is the expression of support, confidence, and belief in the recipient’s abilities. It aims to uplift and motivate, rather than provide direct solutions. ADVICE focuses on what to do, while ENCOURAGEMENT focuses on the person's ability to do it in the future.
+
+ADVICE vs. INFORMATION BROADCASTING: ADVICE gives direct instructions. INFORMATION BROADCASTING shares factual information, knowledge, opinions, or insights about a topic or situation but does not directly tell the recipient what to do.
+
+INFORMATION BROADCASTING vs. EMPATHY: EMPATHY focuses on understanding and sharing the emotions or feelings of another person. Messages in this category often involve using phrases like "I understand," "I can imagine," or "That must be hard.", "I can feel ...", "I can sense that ..."
+
+INFORMATION BROADCASTING vs. VALIDATION: VALIDATION positively evaluates, validates, supports, and reinforces the feelings, thoughts, or actions of the recipient. VALIDATION expresses agreement, approval, or recognition of the recipient’s perspective, experience, actions, or decisions. On the other hand, INFORMATION BROADCASTING focuses on the objective facts and details of a situation without much emotional expressions.
+
+CARING vs. ENCOURAGEMENT: CARING messages expresses concern, compassion, and sympathy for someone's situation or feelings. These messages focus on acknowledging the recipient’s pain or difficulty and offering emotional support. Often uses phrases like "I'm here for you," "I care about you," or "I'm sorry you're going through this." ENCOURAGEMENT messages aim to instill hope, confidence, and motivation in someone facing a challenge or pursuing a goal. These messages focus on the recipient’s potential for success and resilience.
+
+CARING vs. EMPATHY: CARING, such as concern, sympathy, and willingness to help or to accompany, can be expressed without necessarily feeling the same emotions as the other person. EMPATHY emphasizes understanding and sharing the recipient’s emotions.
+
+EXTERNAL vs. SELF-REFERRAL: EXTERNAL directs the recipient to external resources or third parties, rather than the help-giver. SELF-REFERRAL expresses the help-giver's willingness to provider further assistance to the recipient.
+
+THANK: When a message can either belong to THANK or another label, assign the other label to this message.
+
+Important:
+
+Choose only one category per sentence.
+Do not include any additional explanations in your responses. 
+Only return each sentence followed by its label.
